@@ -1,37 +1,20 @@
-<p align="center">
-  <img width="420" height="320" src="figures/dis-logo-official.png">
-</p>
-
-![dis5k-v1-sailship](figures/dis5k-v1-sailship.jpeg)
-
-<br> 
-
 ## [Highly Accurate Dichotomous Image Segmentation （ECCV 2022）](https://arxiv.org/pdf/2203.03041.pdf) 
 [Xuebin Qin](https://xuebinqin.github.io/), [Hang Dai](https://scholar.google.co.uk/citations?user=6yvjpQQAAAAJ&hl=en), [Xiaobin Hu](https://scholar.google.de/citations?user=3lMuodUAAAAJ&hl=en), [Deng-Ping Fan*](https://dengpingfan.github.io/), [Ling Shao](https://scholar.google.com/citations?user=z84rLjoAAAAJ&hl=en), [Luc Van Gool](https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en).
 
 <br>
 
-## This is the official repo for our newly formulated DIS task: 
 [**Project Page**](https://xuebinqin.github.io/dis/index.html), [**Arxiv**](https://arxiv.org/pdf/2203.03041.pdf), [**中文**](https://github.com/xuebinqin/xuebinqin.github.io/blob/main/ECCV2022_DIS_Chinese.pdf).
 
 <br> 
 
-# PLEASE STAY TUNED FOR OUR DIS V2.0 (Jul. 30th, 2022) 
-![disv2-peacock](figures/peacock.jpg)
-
-# Updates !!!
+# Updates
 
 ** (2022-Aug.-17)** The optimized model for general use of our IS-Net is now released: ```isnet-general-use.pth``` (for general use) from [(Google Drive)](https://drive.google.com/file/d/1nV57qKuy--d5u1yvkng9aXW1KS4sOpOi/view?usp=sharing) or [(Baidu Pan 提取码:6jh2)](https://pan.baidu.com/s/111MqmwnUc8Z4Wsq2Pc4bhQ?pwd=6jh2), please feel free to try it with the newly created simple ```inference.py``` code on your own datasets.
 ![u2net-isnet-cmp](figures/u2net-isnet-cmp.png)
 
 ** (2022-Jul.-30)**  Thank [**AK391**](https://github.com/AK391) for the implementaiton of a Web Demo: Integrated into [Huggingface Spaces 🤗](https://huggingface.co/spaces) using [Gradio](https://github.com/gradio-app/gradio). Try out the Web Demo [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/doevent/dis-background-removal). <br> 
 
-Notes for official DIS group: Currently, the released DIS deep model is the academic version that was trained with DIS V1.0, which includes very few animal, human, cars, etc. So it may not work well on these targets. We will release another version for general use and test. In addition, our DIS V2.0 will cover more categories with extremely well-annotated samples. Please stay tuned. <br>
-
 ** (2022-Jul.-17)** Our paper, code and dataset are now officially released!!! Please check our project page for more details: [**Project Page**](https://xuebinqin.github.io/dis/index.html).<br>
-
-** (2022-Jul.-5)** Our DIS work is now accepted by ECCV 2022, the code and dataset will be released before July 17th, 2022. Please be aware of our updates. 
-
 <br> 
 
 ## 1. Our Dichotomous Image Segmentation (DIS) Dataset
