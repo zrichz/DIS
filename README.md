@@ -21,75 +21,6 @@
 
 ### 1.1 [DIS dataset V1.0: DIS5K](https://xuebinqin.github.io/dis/index.html) 
 
-<br>
-
-### Download： [Google Drive](https://drive.google.com/file/d/1jOC2zK0GowBvEt03B7dGugCRDVAoeIqq/view?usp=sharing) or [Baidu Pan 提取码：rtgw](https://pan.baidu.com/s/1y6CQJYledfYyEO0C_Gejpw?pwd=rtgw)
-
-![dis5k-dataset-v1-sailship](figures/DIS5k-dataset-v1-sailship.png)
-![complexities-qual](figures/complexities-qual.jpeg)
-![categories](figures/categories.jpeg)
-
-### 1.2 [DIS dataset V2.0](https://github.com/xuebinqin/DIS)
-
-<br>
-
-Although our DIS5K V1.0 includes samples from more than 200 categories, many categories, such as human, animals, cars and so on, in real world are not included. [So the current version (v1.0) of our dataset may limit the robustness of the trained models.]() To build the comprehensive and large-scale highly accurate dichotomous image segmentation dataset, we are building our DIS dataset V2.0. The V2.0 will be released soon. Please stay tuned.
-
-Samples from DIS dataset V2.0.
-![dis-v2](figures/dis-v2.jpg)
-
-<br> 
-
-## 2. APPLICATIONS of Our DIS5K Dataset
-
-<br>
-
-### 3D Modeling 
-![3d-modeling](figures/3d-modeling.png)
-
-### Image Editing
-![ship-demo](figures/ship-demo.gif)
-### Art Design Materials
-![bg-removal](figures/bg-removal.gif)
-### Still Image Animation
-![view-move](figures/view-move.gif)
-### AR 
-![motor-demo](figures/motor-demo.gif)
-### 3D Rendering
-![video-3d](figures/video-3d.gif)
-
-<br> 
-
-## 3. Architecture of Our IS-Net
-
-<br> 
-
-![is-net](figures/is-net.png)
-
-<br>
-
-## 4. Human Correction Efforts (HCE)
-
-<br>
-
-![hce-metric](figures/hce-metric.png)
-
-<br>
-
-## 5. Experimental Results
-
-<br>
-
-### Predicted Maps, [(Google Drive)](https://drive.google.com/file/d/1FMtDLFrL6xVc41eKlLnuZWMBAErnKv0Y/view?usp=sharing), [(Baidu Pan 提取码：ph1d)](https://pan.baidu.com/s/1WUk2RYYpii2xzrvLna9Fsg?pwd=ph1d), of Our IS-Net and Other SOTAs
-
-### Qualitative Comparisons Against SOTAs
-![qual-comp](figures/qual-comp.jpg)
-
-### Quantitative Comparisons Against SOTAs
-![qual-comp](figures/quan-comp.png)
-
-<br>
-
 ## 6. Run Our Code
 
 <br>
@@ -99,7 +30,7 @@ Samples from DIS dataset V2.0.
 git clone https://github.com/xuebinqin/DIS.git
 ``` 
 
-### (2) Configuring the environment: go to the ```DIS/ISNet``` folder and run 
+### (2) Configuring the environment: go to the ```DIS/IS-Net``` folder and run 
 ```
 conda env create -f pytorch18.yml
 ```
