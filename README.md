@@ -14,6 +14,7 @@ git clone https://github.com/xuebinqin/DIS.git
 conda env create -f pytorch18.yml
 ```
 Or check the ```requirements.txt``` to configure dependencies. REMEMBER - LINUX ONLY
+
 (3) activate the conda environment by 
 ```
 conda activate pytorch18
